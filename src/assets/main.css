@@ -1,0 +1,40 @@
+@import './base.css';
+
+/* ── 하늘색 날씨 테마: 전역 설정 ─────────────────────────── */
+
+/* 페이지 전체 배경: 위쪽 하늘빛 → 아래쪽 흰색으로 은은한 그라데이션 */
+body {
+  background: linear-gradient(180deg, #e8f2ff 0%, #f5f9ff 40%, #ffffff 100%);
+  background-attachment: fixed;
+  color: #1f2937;
+}
+
+/* Element Plus 포인트 컬러(primary)를 하늘 파랑 계열로 통일 */
+:root {
+  --el-color-primary: #2f80ed;
+  --el-color-primary-light-3: #5b9cf0;
+  --el-color-primary-light-5: #8fbaf5;
+  --el-color-primary-light-7: #c2d9fa;
+  --el-color-primary-light-9: #eaf2fd;
+  --el-color-primary-dark-2: #2568c4;
+  --el-border-radius-base: 10px;
+}
+
+/* el-card 를 조금 더 둥글고 부드러운 그림자로 */
+.el-card {
+  border-radius: 14px !important;
+  border: 1px solid #eaf0f7 !important;
+}
+
+#app {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 1.5rem;
+  font-weight: normal;
+}
+
+@media (max-width: 640px) {
+  #app {
+    padding: 1rem;
+  }
+}
