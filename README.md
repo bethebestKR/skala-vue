@@ -2,7 +2,7 @@
 
 Vue 3로 만든 날씨 애플리케이션입니다. **실제 외부 API로 실시간 날씨**를 가져오고, 3D 지구본·카드 대시보드·3일 예보로 확장했습니다.
 
-🔗 **배포:** https://skala-pjkr31tzu-cacai1844-7223s-projects.vercel.app
+🔗 **배포:** [https://skala-pjkr31tzu-cacai1844-7223s-projects.vercel.app](https://skala-vue-neon-zeta.vercel.app/)
 💻 **저장소:** https://github.com/bethebestKR/skala-vue
 
 > 이 README는 **① 사용한 API · ② 트러블슈팅 · ③ 느낀 점** 을 중심으로 정리했습니다.
